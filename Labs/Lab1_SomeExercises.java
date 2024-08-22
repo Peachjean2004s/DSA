@@ -48,7 +48,7 @@ public class Lab1_SomeExercises {
         /* your code */
         System.out.println(lis2b);
         System.out.println(lis2a);
-        if (lis2b.equals(lis2a)) {
+        if (lis2b.get(0).toString().equals(sb.toString())) {
             System.out.println("Shollow copy");
         } else {
             System.out.println("not Shollow copy");
